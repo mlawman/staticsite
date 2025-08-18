@@ -23,6 +23,5 @@ class TestTextNode(unittest.TestCase):
         node2 = TextNode("This is a text node url test", TextType.LINK, "https://boot.dev")
         self.assertEqual(node, node2)
 
-
 if __name__ == "__main__":
     unittest.main()
